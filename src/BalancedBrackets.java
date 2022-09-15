@@ -165,3 +165,11 @@ public class BalancedBrackets {
     }
 
 }
+
+//    What is the runtime complexity of your solutions for Step 1 and Step 2?
+//      O(n) and O(1)
+//    What is the runtime complexity for each solution?
+//      O(n)
+//    How do the solutions compare to yours? What improvements do you think you could have made to your solution?
+//      using libraries is more readable code
+//    How would the implementation of the Stack from Step 3 change if you were to implement a queue?

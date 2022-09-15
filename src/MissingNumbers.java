@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class MissingNumbers {
-
+    // run time: O(n^3)
     public static void findMissing(int nums[], int maxNum)
     {
         int i;
@@ -26,6 +26,7 @@ public class MissingNumbers {
         System.out.println(ans);
 
     }
+    //run time: 0(n)
     public static int missingNumber(int[] nums, int maxNum){
         Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
 
@@ -37,7 +38,7 @@ public class MissingNumbers {
         return 0;
 
     }
-
+    //run time: O(n)
     public static int missingNumberSort(int[] nums, int maxNum) {
         Arrays.sort(nums);
 
@@ -53,7 +54,7 @@ public class MissingNumbers {
         }
         return maxNum;
     }
-
+    //run time: O(n)
     public static int missingNumberSum(int[] nums, int maxNum) {
         // Alternate solution: int sum = (nums.length + 1)*(nums.length) / 2
         int expectedSum = 0;
